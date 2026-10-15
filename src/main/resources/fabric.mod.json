@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/FabricMC/fabric-meta/main/fabric.mod.json",
+  "schema_version": 1,
+  "id": "nova-auto-builder",
+  "version": "${version}",
+  "name": "Nova Auto Builder",
+  "description": "Client mod untuk membina struktur secara automatik menggunakan blueprint pada Minecraft 1.21.1.",
+  "authors": [
+    "Nova Dev"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/fabricmc/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/nova-autobuilder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nova.autobuilder.NovaAutoBuilderClient"
+    ]
+  },
+  "mixins": [
+    "nova-auto-builder.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
