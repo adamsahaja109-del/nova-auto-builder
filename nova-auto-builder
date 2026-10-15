@@ -1,0 +1,20 @@
+nova-auto-builder/
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── nova/
+        │           └── autobuilder/
+        │               ├── NovaAutoBuilderClient.java
+        │               ├── config/
+        │               │   └── BuilderConfig.java
+        │               └── gui/
+        │                   └── BuilderScreen.java
+        └── resources/
+            ├── fabric.mod.json
+            └── assets/
+                └── nova-autobuilder/
+                    └── icon.png (pilihan)
